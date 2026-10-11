@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emerald's Journey — Grade 7 to 10 Slideshow</title>
+  <meta name="description" content="full-screen cinematic slideshow of class memories from Grade 7 to Grade 10" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="slideshow" aria-roledescription="full-screen photo slideshow" role="region" aria-label="Class memory slideshow from Grade 7 to Grade 10">
+    <!-- Grade 7 -->
+    <div class="slide" data-grade="7" role="listitem">
+      <img class="slide__image" src="images/grade7-1.jpg" alt="Grade 7 class memory — where it all started" loading="lazy" />
+      <div class="slide__label">
+        <span class="slide__grade">GRADE 7</span>
+        <span class="slide__subtitle">The Beginning</span>
+      </div>
+      <blockquote class="slide__quote" aria-hidden="true">
+        <p>We grew in ways we didn't notice, shaped by moments we thought were ordinary.</p>
+      </blockquote>
+    </div>
+
+    <!-- Grade 8 -->
+    <div class="slide" data-grade="8" role="listitem">
+      <img class="slide__image" src="images/grade8-1.jpg" alt="Grade 8 class memory — growing together" loading="lazy" />
+      <div class="slide__label">
+        <span class="slide__grade">GRADE 8</span>
+        <span class="slide__subtitle">Growing Together</span>
+      </div>
+      <blockquote class="slide__quote" aria-hidden="true">
+        <p>Strangers became friends. Friends became family.</p>
+      </blockquote>
+    </div>
+
+    <!-- Grade 9 -->
+    <div class="slide" data-grade="9" role="listitem">
+      <img class="slide__image" src="images/grade9-1.jpg" alt="Grade 9 class memory — finding our way" loading="lazy" />
+      <div class="slide__label">
+        <span class="slide__grade">GRADE 9</span>
+        <span class="slide__subtitle">Finding Our Way</span>
+      </div>
+      <blockquote class="slide__quote">
+        <p>We changed without even noticing.</p>
+      </blockquote>
+    </div>
+
+    <!-- Grade 10 -->
+    <div class="slide" data-grade="10" role="listitem">
+      <img class="slide__image" src="images/grade10-1.jpg" alt="Grade 10 class memory — the next chapter" loading="lazy" />
+      <div class="slide__label">
+        <span class="slide__grade">GRADE 10</span>
+        <span class="slide__subtitle">The Next Chapter</span>
+      </div>
+      <blockquote class="slide__quote">
+        <p>The moments end. The memories stay.</p>
+      </blockquote>
+    </div>
+  </div>
+
+  <h1 class="slideshow__title" aria-hidden="true">OUR YEARS</h1>
+
+  <div class="slideshow__progress-bar" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
